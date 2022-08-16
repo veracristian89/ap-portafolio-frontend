@@ -1,0 +1,97 @@
+{
+    "name": "Cristian Vera",
+    "backImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQFpXCNBpaznig/profile-displayphoto-shrink_800_800/0/1660005748640?e=1666224000&v=beta&t=BolywLN0O72ohYRG9lpw1w4OcTpnL0W0Zzn_XTb8b-0",
+    "position": "Analista de soporte de aplicaciones",
+    "company": {
+        "name": "Vates",
+        "img": "",
+        "url": "#"
+    },
+    "school": {
+        "name": "ISPC",
+        "img": "",
+        "url": "#"
+    },
+    "ubication": "Cordoba (Argentina)",
+    "about": "Estudiante de informatica",
+    "experience": [
+        {
+            "position": "Atención al cliente",
+            "company": "Apex",
+            "img": "",
+            "mode": "Jornada completa",
+            "start": "septiembre 2015",
+            "end": "agosto 2022",
+            "timeElapsed": "6 años y 10 meses"
+        },
+        {
+            "position": "Analista de soporte de aplicaciones",
+            "company": "Vates",
+            "img": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/kewmx8jmcwqz2ap6gtyj",
+            "mode": "Jornada completa",
+            "start": "agosto 2022",
+            "end": "actualidad",
+            "timeElapsed": "1 mes"
+        }
+    ],
+    "education": [
+        {
+            "school": "ISPC",
+            "title": "Tecnico superior en desarrollo web",
+            "img": "",
+            "career": "Tecnicatura superior en desarrollo web y aplicaciones digitales",
+            "score": "-",
+            "start": "2022",
+            "end": "en curso"
+        },
+        {
+            "school": "Argentina Programa",
+            "title": "Programador Full-Stack",
+            "img": "",
+            "career": "Programador Full-Stack",
+            "score": "-",
+            "start": "2021",
+            "end": "en curso"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Javascript",
+            "progress": 75,
+            "confirms": 2,
+            "confirmsNames": [
+                {
+                    "name":"Rodolfo Paez"
+                },
+                {
+                    "name":"Esteban Quito"
+                }
+            ]
+        },
+        {
+            "name": "Css",
+            "progress": 85,
+            "confirms": 2,
+            "confirmsNames": [
+                {
+                    "name":"Rodolfo Paez"
+                },
+                {
+                    "name":"Esteban Quito"
+                }
+            ]
+        }
+    ],
+    "achivements": [
+        {
+            "name":"E-commerce",
+            "url":""
+        },
+        {
+            "name":"Ahorcado",
+            "url":""
+        }
+    ]
+    
+}

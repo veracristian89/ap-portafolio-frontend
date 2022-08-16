@@ -10,6 +10,7 @@ import { ExperienciaEducacionComponent } from './components/experiencia-educacio
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
