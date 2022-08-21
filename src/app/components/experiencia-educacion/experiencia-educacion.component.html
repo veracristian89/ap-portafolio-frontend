@@ -17,20 +17,22 @@
         </div>
     </ul>
 
-        <div class="d-flex justify-content-between align-items-center mx-3 mt-2">
-            <h3 class="card-title h2">Educación</h3>
-            <fa-icon [icon]="faPlus"></fa-icon>
-        </div>
-        <ul>
-            <div class="container m-2">
-                <div class="row">
-                    <img class="col-md-1 col-sm-2" src="/assets/img/logo-argentina-programa.jpg" alt="">
-                    <div class="col-md-11 col-sm-10 container">
-                        <h3 class="card-title m-1 h3">Argentina programa</h3>
-                        <p class="card-text m-1">oct 2021 - actualidad</p>
-                    </div>
+    <div class="d-flex justify-content-between align-items-center mx-3 mt-2">
+        <h3 class="card-title h2">Educación</h3>
+        <fa-icon [icon]="faPlus"></fa-icon>
+    </div>
+
+    <ul *ngFor="let item of miPortafolio.education">
+        <div class="container m-2">
+            <div class="row">
+                <img class="col-md-1 col-sm-2" [src]="item.img" alt="">
+                <div class="col-md-11 col-sm-10 container">
+                    <h3 class="card-title m-1 h3">{{item.school}}</h3>
+                    <p class="card-text m-1">{{item.title}}</p>
+                    <p class="card-text m-1">{{item.start}} - {{item.end}}</p>
                 </div>
             </div>
-        </ul>
+        </div>
+    </ul>
 
 </div>
