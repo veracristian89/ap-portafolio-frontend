@@ -86,11 +86,13 @@
     "achivements": [
         {
             "name":"E-commerce",
-            "url":""
+            "url":"https://alura-geek-e-commerce.netlify.app/",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sequi repellat! Quasi ipsum, libero quisquam facere quaerat mollitia molestiae harum aperiam placeat similique sunt incidunt doloribus eaque ullam earum deserunt!"
         },
         {
             "name":"Ahorcado",
-            "url":""
+            "url":"https://alura-ahorcado.netlify.app/",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sequi repellat! Quasi ipsum, libero quisquam facere quaerat mollitia molestiae harum aperiam placeat similique sunt incidunt doloribus eaque ullam earum deserunt!"
         }
     ]
     
