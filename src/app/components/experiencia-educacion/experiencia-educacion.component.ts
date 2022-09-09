@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faTrash, faPen } from '@fortawesome/free-solid-svg-icons';
 import { PortafolioService } from 'src/app/services/portafolio.service';
 
 @Component({
@@ -9,6 +9,8 @@ import { PortafolioService } from 'src/app/services/portafolio.service';
 })
 export class ExperienciaEducacionComponent implements OnInit {
   faPlus = faPlus;
+  faTrash = faTrash;
+  faPen = faPen;
   miPortafolio:any;
   constructor(private datosPortafolio:PortafolioService) { }
   

@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+fa-icon{
+    color: #575757;
+    font-size: 1.125rem;
+    padding: .5rem;
+    border-radius: 100%;
+}
 fa-icon:hover{
     cursor: pointer;
+    background: #f4f4f4;
 }
-fa-icon{
-    border-bottom: 1px solid blue;
+body{
+    background:#f3f2ef;
 }

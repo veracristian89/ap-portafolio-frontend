@@ -2,24 +2,33 @@
 
     <div class="d-flex justify-content-between align-items-center mx-3 mt-2">
         <h3 class="card-title h2" id="experiencia">Experiencia</h3>
-        <fa-icon [icon]="faPlus"></fa-icon>
+        <div>
+            <fa-icon class="mx-3" [icon]="faPlus"></fa-icon>
+            <fa-icon [icon]="faPen"></fa-icon>
+        </div>
     </div>
+
     <ul *ngFor="let item of miPortafolio.experience">
         <div class="container m-2">
+
             <div class="row">
-                <img class="col-md-1 col-sm-2" [src]="item.img" alt="">
+                <img class="col-md-1 col-sm-2 h-100" [src]="item.img" alt="">
                 <div class="col-md-11 col-sm-10 container">
                     <h3 class="card-title m-1 h3">{{item.company}}</h3>
                     <p class="card-text m-1">{{item.position}}</p>
                     <p class="card-text m-1">{{item.start}} - {{item.end}}</p>
                 </div>
             </div>
+            
         </div>
     </ul>
 
     <div class="d-flex justify-content-between align-items-center mx-3 mt-2">
         <h3 class="card-title h2">Educación</h3>
-        <fa-icon [icon]="faPlus"></fa-icon>
+        <div>
+            <fa-icon class="mx-3" [icon]="faPlus"></fa-icon>
+            <fa-icon [icon]="faPen"></fa-icon>
+        </div>
     </div>
 
     <ul *ngFor="let item of miPortafolio.education">
