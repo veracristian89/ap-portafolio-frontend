@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus,faPen } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-skill',
@@ -9,6 +9,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 export class SkillComponent implements OnInit {
   titulo : string = "Skills";
   faPlus = faPlus;
+  faPen = faPen;
   constructor() { }
 
   ngOnInit(): void {
