@@ -9,12 +9,12 @@
     </div>
 
     <ul *ngFor="let item of miPortafolio.experience">
-        <div class="container m-2">
+        <div class="container m-1">
 
-            <div class="row">
-                <img class="col-md-1 col-sm-2 h-100" [src]="item.img" alt="">
-                <div class="col-md-11 col-sm-10 container">
-                    <h3 class="card-title m-1 h3">{{item.company}}</h3>
+            <div class="row align-items-center">
+                <img class="col-sm-1 col-2 p-0 h-100" [src]="item.img" alt="">
+                <div class="col-sm-11 col-10 container">
+                    <h3 class="card-title m-1 h3 font-">{{item.company}}</h3>
                     <p class="card-text m-1">{{item.position}}</p>
                     <p class="card-text m-1">{{item.start}} - {{item.end}}</p>
                 </div>
@@ -34,8 +34,8 @@
     <ul *ngFor="let item of miPortafolio.education">
         <div class="container m-2">
             <div class="row">
-                <img class="col-md-1 col-sm-2" [src]="item.img" alt="">
-                <div class="col-md-11 col-sm-10 container">
+                <img class="col-sm-1 col-2 p-0 h-100" [src]="item.img" alt="">
+                <div class="col-sm-11 col-10 container">
                     <h3 class="card-title m-1 h3">{{item.school}}</h3>
                     <p class="card-text m-1">{{item.title}}</p>
                     <p class="card-text m-1">{{item.start}} - {{item.end}}</p>
