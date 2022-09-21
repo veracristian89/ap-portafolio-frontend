@@ -60,6 +60,7 @@
             "name": "Javascript",
             "progress": 75,
             "confirms": 2,
+            "skillImg":"https://codehelper.com/wp-content/uploads/2018/10/javascript-icon.svg",
             "confirmsNames": [
                 {
                     "name":"Rodolfo Paez"
@@ -73,6 +74,7 @@
             "name": "Css",
             "progress": 85,
             "confirms": 2,
+            "skillImg":"https://cdn-icons-png.flaticon.com/512/919/919826.png",
             "confirmsNames": [
                 {
                     "name":"Rodolfo Paez"
