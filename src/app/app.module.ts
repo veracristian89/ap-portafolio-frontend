@@ -10,7 +10,8 @@ import { ExperienciaEducacionComponent } from './components/experiencia-educacio
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http'
     ExperienciaEducacionComponent,
     ProyectosComponent,
     SkillComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
